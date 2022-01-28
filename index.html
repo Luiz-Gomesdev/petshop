@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <title>Pet Shop</title>
+
+    <script type="text/javascript">
+		window.onload = function() {
+			document.querySelector(".menu-mobile").addEventListener("click", function(){
+				if (document.querySelector(".menu nav ul").style.display == 'flex') {
+					document.querySelector(".menu nav ul").style.display = 'none';
+				} else {
+					document.querySelector(".menu nav ul").style.display = 'flex';	
+				}
+			});
+		};
+	</script>
+
+</head>
+
+<body>
+
+    <header><!-- Inicio Cabeçalho -->
+		<div class="container">
+			<div class="logo">
+				<a href="index.html"><img id="luidy" src="images/logo.png"></a>
+			</div>
+			<div class="menu">
+				<nav>
+					<div class="menu-mobile">
+						<div class="mm-line"></div>
+						<div class="mm-line"></div>
+						<div class="mm-line"></div>
+					</div>
+					<ul>
+						<li class="active"><a href="index.html">HOME</a></li>
+						<li><a href="">PET</a></li>
+						<li><a href="">SERVIÇOS</a></li>
+						<li><a href="">PRODUTOS</a></li>
+						<li><a href="">BLOG</a></li>
+						<li><a href="">CONTATO</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</header><!-- Fim Cabeçalho -->
+
+	<section id="banner"><!-- Inicio Seção Banner -->
+		<div class="container column">
+			<div class="banner-headline">
+				<h1>SEU PET VAI AMAR</h1>
+				<h2>A maior variedade de produtos e melhores marcas com até 50% OFF</h2>
+			</div>
+			<div class="banner-options">
+				<div class="banner1">
+					<div class="banner-title">PETS NA PANDEMIA</div>
+					<div class="banner-desc">O Brasil tem hoje o segundo maior mercado de produtos para animais domésticos do planeta; interesse pelos bichos gera engajamento recorde em posts do tema.</div>
+					<a href="">Saiba Mais</a>
+				</div>
+				<div class="banner2">
+					<div class="banner-title">DICAS DA VETERINÁRIA</div>
+					<div class="banner-desc">Evitar passear nos horários mais quentes e fazer brincadeiras com água são algumas opções, sugere a veterinária pois os pets são mais sensíveis às altas temperaturas. </div>
+					<a href="">Saiba Mais</a>
+				</div>
+				<div class="banner3">
+					<div class="banner-title">HORÁRIO DE FUNCIONAMENTO</div>
+					<div class="banner-desc">
+						<div class="hour">
+							<div>SEG - SEX</div>
+							<div>08:00 - 18:00</div>
+						</div>
+						<div class="hour">
+							<div>SÁB</div>
+							<div>09:00 - 14:30</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section><!-- Fim Seção Banner -->
+
+	<section id="geral"><!-- Inicio Seção Conteudo -->
+		<div class="container">
+			<section>
+				<div class="widget">
+					<div class="widget-title">
+						<div class="widget-title-text">NOTÍCIAS</div>
+						<div class="widget-title-bar"></div>
+					</div>
+					<div class="widget-body flex">
+
+						<article>
+							<a href="">
+								<div class="news-data">
+									<div class="news-posted-at">28 JAN 22</div>
+									<div class="news-comments">1</div>
+								</div>
+								<div class="news-thumbnail">
+									<img src="images/luidy.png">
+								</div>
+								<div class="news-title">
+									9 motivos para não deixar o passeio de lado								
+								</div>
+								<div class="news-resume">
+                                    Passear com cachorro é mais que um momento de lazer ou um horário destinado para o animal fazer as necessidades fisiológicas, é um ato de cuidado e amor. Ter um animal requer muita responsabilidade e algumas horas dedicadas...
+								</div>
+							</a>
+						</article>
+
+						<article>
+							<a href="">
+								<div class="news-data">
+									<div class="news-posted-at">27 JAN 22</div>
+									<div class="news-comments">2</div>
+								</div>
+								<div class="news-thumbnail">
+									<img src="images/laica.png">
+								</div>
+								<div class="news-title">
+                                    Pode dar banho em cachorro com shampoo de gente?
+								</div>
+								<div class="news-resume">
+                                    Certamente, o shampoo de humanos é bem mais barato e possui uma grande variedade de fragrâncias. Ademais, que perigo teria usar produtos de bebês nos cães, não é mesmo? Contudo, se você chegou até aqui, é porque tem dúvidas...
+								</div>
+							</a>
+						</article>
+
+						<article>
+							<a href="">
+								<div class="news-data">
+									<div class="news-posted-at">25 JAN 22</div>
+									<div class="news-comments">3</div>
+								</div>
+								<div class="news-thumbnail">
+									<img src="images/sono.png">
+								</div>
+								<div class="news-title">
+									Como garantir uma boa noite de sono para o seu pet								
+								</div>
+								<div class="news-resume">
+                                    Alguns estudos confirmam que sonhar também faz parte da vida dos cães. Assim como os seres humanos, eles passam por dois estágios de sono, o REM e o não REM. No estágio REM acontecem os sonhos e por isso os pets também podem viver essa experiência.
+								</div>
+							</a>
+						</article>
+
+						<article>
+							<a href="">
+								<div class="news-data">
+									<div class="news-posted-at">23 JAN 22</div>
+									<div class="news-comments">4</div>
+								</div>
+								<div class="news-thumbnail">
+									<img src="images/adote.png">
+								</div>
+								<div class="news-title">
+									Saiba como ajudar animais abandonados e onde adotar								
+								</div>
+								<div class="news-resume">
+                                    A maioria das instituições que resgatam os animais sobrevivem de doações de rações, medicamentos, entre outros insumos para criação e tratamento dos pets. A doação pode ser feita através do contato de cada instituição.
+								</div>
+							</a>
+						</article>
+
+					</div>
+				</div>
+			</section>
+
+			<aside><!-- Inicio Aside -->
+				<div class="widget"><!-- Inicio Widget -->
+					<div class="widget-title">
+						<div class="widget-title-text">CATEGORIAS</div>
+						<div class="widget-title-bar"></div>
+					</div>
+					<div  class="widget-body-1"><!-- A Atividade COMEÇA aqui -->
+						<div id="wid1"  class="square"></div>
+						<div id="wid2" class="square"></div>
+					</div>
+					<div class="widget-body-1">
+						<div id="wid3" class="square"></div>
+						<div id="wid4" class="square"></div>
+					</div>
+					<div class="widget-body-1">
+						<div id="wid5" class="square"></div>
+						<div id="wid6" class="square"></div>
+					</div>
+					<div class="widget-body-1">
+						<div id="wid7" class="square"></div>
+						<div id="wid8" class="square"></div>
+					</div>
+					
+				</div><!-- Fim Widget -->
+
+				<div class="widget"><!-- Inicio Widget -->
+					<div class="widget-title">
+						<div class="widget-title-text">Agende o seu horário</div>
+						<div class="widget-title-bar"></div>
+					</div>
+					<div class="widget-body-2">
+                        Trabalhamos com horários flexíveis e utilizamos os melhores produtos
+                        para a beleza e higiene do seu Pet.
+						<div class="contatc-desc">
+						<div class="desc">
+							<img id="ctt1" src="images/phone.png"><div class="phone">Contato: <strong>(33) 99999-9999</strong></div>
+						</div>
+						<div class="desc">
+							<img id="ctt2" src="images/email.png"><div class="email">Email: <a href="email@luidypet.com">email@luidypet.com</a></div>
+						</div>
+						<div class="desc">
+							<img id="ctt3" src="images/page.png"><div class="page">Formulário <a href="">Aqui</a></div>
+						</div>
+						</div>
+					</div><!-- A Atividade TERMINA aqui -->
+				</div><!-- Fim Widget -->
+			</aside><!-- Fim Aside -->
+		</div>
+	</section><!-- Fim Seção Conteudo -->
+
+	<footer>
+		<div class="container flexColumn">
+			<div class="footer-menu">
+				<div class="fm-1">
+					
+				</div>
+				<div class="fm-2">
+					
+				</div>
+				<div class="fm-3">
+					
+				</div>
+			</div>
+			<div class="footer-area">
+				<div class="footer-areaitem">
+					<div class="widget"><!-- Inicio Widget -->
+						<div class="widget-title">
+							<div class="widget-title-text">Friendly Luidy Pet</div>
+							<div class="widget-title-bar"></div>
+						</div>
+						<div class="widget-body-1"></div>
+						<div class="widget-text-mediacenter">
+							O melhor amigo do seu PET, desde 2015 oferecemos amor ao seu amiguinho.
+						</div>
+						<div class="widget-text-endereco">
+							<div class="street">
+								Rua da Esquina<br />
+	                            Bairro Pet<br />
+	                            Araçuaí, MG
+							</div>
+							<div>
+								(33) 99999-9999<br />
+	                            (33) 99999-9999<br />
+	                            <div class="email@luidypet.com">medicenter@mail.com</div>
+							</div>
+						</div>
+						<div class="widget-icons-footer">
+							
+						</div>
+					</div><!-- Fim Widget -->
+				</div>
+				<div class="footer-areaitem">
+					<div class="widget"><!-- Inicio Widget -->
+						<div class="widget-title">
+							<div class="widget-title-text">Últimas Postagens</div>
+							<div class="widget-title-bar"></div>
+						</div>
+						<div class="widget-body-1"></div>
+						<div class="widget-text-posts">
+                            &#xf061; Após dois anos de pandemia e a estadia forçada em casa<br>
+							&nbsp;&nbsp;&nbsp; muitas pessoas voltam, aos poucos<br>
+							<div class="yeas-footer">&nbsp;&nbsp;&nbsp;7 dias atrás</div>
+						</div>
+						<div class="widget-text-posts">
+							&#xf061; Se você tem animais de estimação em casa.<br>
+							<div class="yeas-footer">&nbsp;&nbsp;&nbsp;8 dias atrás</div>
+						</div>
+						<div class="widget-text-posts">
+							&#xf061; Dar uma espiada à distância e checar se<br>
+							&nbsp;&nbsp;&nbsp; está tudo bem pode ser uma forma de aliviar as<br>
+                            &nbsp;&nbsp;&nbsp; preocupações de seus tutores.<br>
+							<div class="yeas-footer">&nbsp;&nbsp;&nbsp;10 dias atrás</div>
+						</div>
+					</div><!-- Fim Widget -->
+				</div>
+				<div class="footer-areaitem">
+					<div class="widget"><!-- Inicio Widget -->
+						<div class="widget-title">
+							<div class="widget-title-text">Últimos Tweets</div>
+							<div class="widget-title-bar"></div>
+						</div>
+						<div class="widget-body-1"></div>
+						<div class="widget-text-tweets">
+                            &#xf061; Planos de saúde para pets: o seu bichinho ainda terá um.
+							&nbsp;Estamos falando de mais de 144 milhões de pets no Brasil<br>
+							<div class="yeas-footer">&nbsp;&nbsp;&nbsp;4 dias atrás</div>
+
+						</div>
+						<div class="widget-text-tweets">
+                            &#xf061; Planos de saúde para pets: o seu bichinho ainda terá um.
+							&nbsp;Estamos falando de mais de 144 milhões de pets no Brasil<br>
+							<div class="yeas-footer">&nbsp;&nbsp;&nbsp;4 dias atrás</div>
+
+						</div>
+						
+					</div><!-- Fim Widget -->
+				</div>
+			</div>
+
+			<div class="footer-copy">
+				Copyritgh - Todos os direitos reservados
+			</div>
+
+		</div>
+	</footer>
+
+
+    
+</body>
+
+</html>
